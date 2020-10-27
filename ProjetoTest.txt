@@ -1,1 +1,5 @@
 Repositório test aula 3
+
+Estou bastante perdido com esses comandos de Git.
+
+Santa Tartaruga!!!
