@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0;}
+
+#fundoproduto{
+	background-color: black;	
+}
+
+.link{
+	color: white;
+}
+
+.cabecalho{
+	text-align: center;
+	color: white;
+}

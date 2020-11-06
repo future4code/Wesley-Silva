@@ -1,0 +1,20 @@
+/*links cabecalho*/
+
+#menu ul li{
+	padding: 0px;
+	margin: 0px;
+	background-color: #ffffff;
+	list-style:none;
+    display: inline-block;
+    
+    /*visual link*/
+    padding: 5px 15px;
+    background-color:#EDEDED;
+    border-bottom:3px solid #EDEDED;
+}
+
+#introducao *{margin: 0; padding: 0;} 
+ div{
+	background-color: #000000;
+    color: #ffffff;
+}
