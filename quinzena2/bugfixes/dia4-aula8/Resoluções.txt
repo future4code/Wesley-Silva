@@ -1,0 +1,51 @@
+1 - **Comportamento atual**: Na tela Compras, existe um botão "Voltar". Ao clicar nele, nada acontece.
+
+**Comportamento esperado:** Ao clicar nele, deveria retornar para a tela Home
+
+Corrigido com a adição de um HREF direcionando para a página HOME.
+
+2 - **Comportamento atual**: Na tela Home, existe só um botão, o de "Comprar". Ele está posicionado ao lado da mensagem "Bora começar a"
+
+**Comportamento esperado:** O botão "Comprar" deveria estar abaixo desta mensagem
+
+Corrigido com a adição de um BR para mudar a linha do botão.
+
+3 - **Comportamento atual**: A mensagem da seção azul está muito colada ao cabeçalho.
+
+**Comportamento esperado:** Deveria existir um espaço maior entre o cabeçalho e mensagem em si
+
+Corrigido com a adição de 2 BR's para afastar o texto do cabeçalho.
+
+4- **Comportamento atual**: A mensagem da seção azul está em uma linha só.
+
+**Comportamento esperado:** A mensagem deveria estar na seguinte formatação
+
+Corrigido com a adição de BR's para quebrar as linhas da tag P.
+
+5 - **Comportamento atual**: O texto da tabela não está centralizado
+
+**Comportamento esperado:**  O texto da tabela deveria estar centralizado
+
+Corrigido com a adição de "td:nth-child(2)" no CSS para centralizar o texto da tabela.
+
+6 - **Comportamento atual**: As imagens da tabela não estão com o tamanho correto
+
+**Comportamento esperado:**  As imagens deveriam estar como mesmo tamanho e bem menores
+
+Corrigido com adição de "height: 100px;" na tag IMG do estilos gerais.
+
+7 - **Comportamento atual**: Ao lado do campo de busca, há um retângulo preto
+
+**Comportamento esperado:**  No lugar deste retângulo, colocar um ícone com uma imagem de lupa
+
+background-color transparente na imagem de lupa.
+
+
+8 - [Tela Comprar] Colocar efeitos de clique e sobreposição nos botões
+
+**Comportamento atual**: Quando clicarmos nos botões, ou estamos com o mouse sobre eles, não há nenhuma mudança de layout que indique isto
+
+**Comportamento esperado:**  Ao clicarmos nos botões, a cor do texto de todos deve ficar branca. Já, ao passarmos o mouse por cima dele, a cor de fundo deve ser a mesma com um tom mais escuro
+
+
+
