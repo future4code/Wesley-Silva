@@ -80,7 +80,6 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
-/*    padding-top: 100px;*/
 }
 
 #container-de-descricao>ol {
@@ -97,7 +96,7 @@ div img {
     font-size: 60px;
 }
 
-.decimal>li {
+.decimal {
    list-style-type: decimal; 
 }
 

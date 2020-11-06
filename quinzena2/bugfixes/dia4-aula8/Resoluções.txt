@@ -47,5 +47,47 @@ background-color transparente na imagem de lupa.
 
 **Comportamento esperado:**  Ao clicarmos nos botões, a cor do texto de todos deve ficar branca. Já, ao passarmos o mouse por cima dele, a cor de fundo deve ser a mesma com um tom mais escuro
 
+adicionado "hover" para escurecer os botões.
+
+9 - [Tela Comprar] Arrumar borda do campo de texto
+
+**Comportamento atual**: O campo de texto está com a borda nos 4 cantos (em cima, abaixo, esquerda e direita)
+
+**Comportamento esperado:** Ele deve possuir somente a borda de baixo e um pouco mais grossa do que está atualmente
+
+Adicionado "border's" na tag input do CSS para atender o comportamento esperado.
+
+10 - [Tela Comprar] Arrumar a fonte de texto
+
+**Comportamento atual**: O texto na tela comprar está com a estilização da fonte padrão do navegador
+
+**Comportamento esperado:** Ambas as telas devem ter todos os textos com a mesma fonte: Roboto (da Google)
+
+adicinado fonts "font-family: 'Roboto', sans-serif;" da google.
+
+11 - [Tela Comprar] Centralizar a tabela
+
+**Comportamento atual**: Atualmente a tabela de compras está mais para a esquerda do site
+
+**Comportamento esperado:** Ela deve estar centralizada horizontalmente na tela
+
+adicionado uma classe (tabela) na div da tabela para centralizar.
+
+12 - [Tela Home] Ajuste no texto da seção em azul
+
+**Comportamento atual**: Atualmete, uma parte do texto está assim:
+
+```
+Ache os melhores descontos
+Busque pelos seus gostos
+```
+
+**Comportamento esperado:**  Alterar para que fique como uma lista numerada, mostrada abaixo:
+
+```
+1. Ache os melhores descontos
+2. Busque pelos seus gostos
+```
+
 
 
