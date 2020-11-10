@@ -1,0 +1,93 @@
+1 - **Comportamento atual**: Na tela Compras, existe um botão "Voltar". Ao clicar nele, nada acontece.
+
+**Comportamento esperado:** Ao clicar nele, deveria retornar para a tela Home
+
+Corrigido com a adição de um HREF direcionando para a página HOME.
+
+2 - **Comportamento atual**: Na tela Home, existe só um botão, o de "Comprar". Ele está posicionado ao lado da mensagem "Bora começar a"
+
+**Comportamento esperado:** O botão "Comprar" deveria estar abaixo desta mensagem
+
+Corrigido com a adição de um BR para mudar a linha do botão.
+
+3 - **Comportamento atual**: A mensagem da seção azul está muito colada ao cabeçalho.
+
+**Comportamento esperado:** Deveria existir um espaço maior entre o cabeçalho e mensagem em si
+
+Corrigido com a adição de 2 BR's para afastar o texto do cabeçalho.
+
+4- **Comportamento atual**: A mensagem da seção azul está em uma linha só.
+
+**Comportamento esperado:** A mensagem deveria estar na seguinte formatação
+
+Corrigido com a adição de BR's para quebrar as linhas da tag P.
+
+5 - **Comportamento atual**: O texto da tabela não está centralizado
+
+**Comportamento esperado:**  O texto da tabela deveria estar centralizado
+
+Corrigido com a adição de "td:nth-child(2)" no CSS para centralizar o texto da tabela.
+
+6 - **Comportamento atual**: As imagens da tabela não estão com o tamanho correto
+
+**Comportamento esperado:**  As imagens deveriam estar como mesmo tamanho e bem menores
+
+Corrigido com adição de "height: 100px;" na tag IMG do estilos gerais.
+
+7 - **Comportamento atual**: Ao lado do campo de busca, há um retângulo preto
+
+**Comportamento esperado:**  No lugar deste retângulo, colocar um ícone com uma imagem de lupa
+
+background-color transparente na imagem de lupa.
+
+
+8 - [Tela Comprar] Colocar efeitos de clique e sobreposição nos botões
+
+**Comportamento atual**: Quando clicarmos nos botões, ou estamos com o mouse sobre eles, não há nenhuma mudança de layout que indique isto
+
+**Comportamento esperado:**  Ao clicarmos nos botões, a cor do texto de todos deve ficar branca. Já, ao passarmos o mouse por cima dele, a cor de fundo deve ser a mesma com um tom mais escuro
+
+adicionado "hover" para escurecer os botões.
+
+9 - [Tela Comprar] Arrumar borda do campo de texto
+
+**Comportamento atual**: O campo de texto está com a borda nos 4 cantos (em cima, abaixo, esquerda e direita)
+
+**Comportamento esperado:** Ele deve possuir somente a borda de baixo e um pouco mais grossa do que está atualmente
+
+Adicionado "border's" na tag input do CSS para atender o comportamento esperado.
+
+10 - [Tela Comprar] Arrumar a fonte de texto
+
+**Comportamento atual**: O texto na tela comprar está com a estilização da fonte padrão do navegador
+
+**Comportamento esperado:** Ambas as telas devem ter todos os textos com a mesma fonte: Roboto (da Google)
+
+adicinado fonts "font-family: 'Roboto', sans-serif;" da google.
+
+11 - [Tela Comprar] Centralizar a tabela
+
+**Comportamento atual**: Atualmente a tabela de compras está mais para a esquerda do site
+
+**Comportamento esperado:** Ela deve estar centralizada horizontalmente na tela
+
+adicionado uma classe (tabela) na div da tabela para centralizar.
+
+12 - [Tela Home] Ajuste no texto da seção em azul
+
+**Comportamento atual**: Atualmete, uma parte do texto está assim:
+
+```
+Ache os melhores descontos
+Busque pelos seus gostos
+```
+
+**Comportamento esperado:**  Alterar para que fique como uma lista numerada, mostrada abaixo:
+
+```
+1. Ache os melhores descontos
+2. Busque pelos seus gostos
+```
+
+
+
