@@ -64,7 +64,7 @@ for(let numero of array){
 
     a) `booleano1 && booleano2 && !booleano4` ----- False
 
-    b) `(booleano1 && booleano2) || !booleano3` ----- True
+    b) `(booleano1 && booleano2) || !booleano3` ----- False
 
     c)  `(booleano2 || booleano3) && (booleano4 || booleano1)` ----- True
 
